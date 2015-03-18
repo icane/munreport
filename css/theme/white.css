@@ -160,7 +160,7 @@ body {
 .reveal table th, .reveal table td {
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid; }
+  border-bottom: none; }
 
 .reveal table tr:last-child td {
   border-bottom: none; }
@@ -275,4 +275,9 @@ overflow:hidden;
 width:45%;
 padding:10px;
 float:left;
+}
+
+.reveal .centered  table td {
+	text-align: center;
+	padding-right: 1em;
 }

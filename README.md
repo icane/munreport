@@ -1,3 +1,3 @@
-# Demostración de servicios de datos estadísticos en el ICANE
+# Introducción a los datos estadísticos abiertos y enlazados en Cantabria
 
-Diapositivas con conceptos resumidos, ejemplos y demostraciones de uso de los servicios web de datos estadísticos proporcionados por el Instituto Cántabro de Estadística (ICANE).
+Presentación a modo de informe ejecutivo sobre datos estadísticos abiertos y enlazados en Cantabria.
