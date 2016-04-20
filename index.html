@@ -1,525 +1,253 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<title>Introducción a los datos estadísticos abiertos y enlazados en Cantabria</title>
+	<title>Fichas Municipales de Cantabria 2016</title>
 
-		<meta name="description" content="Introducción a los datos estadísticos abiertos y enlazados en Cantabria">
-		<meta name="author" content="Miguel Expósito Martín">
+	<meta name="description" content="Presentación / demostración del producto Fichas Municipales de Cantabria 2016">
+	<meta name="author" content="Miguel Expósito Martín">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
 
-	<body>
+<body>
 
-		<div class="reveal">
+<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section data-id="1">
-					<h4> <span style="font-weight:bold;font-size:50px">datos </span><span style="color: red;font-size:50px;">estadísticos</span></h4>
-					<h4> <span style="font-weight:bold;font-size:50px">abiertos y enlazados</span></h4>
+	<!-- Any section element inside of this container is displayed as a slide -->
+	<div class="slides">
+		<section data-id="1">
+			<h4><span style="font-weight:bold;font-size:50px">fichas</span> <span style="color: red;font-size:50px;">municipales</span>
+			</h4>
+			<h4><span style="font-weight:bold;font-size:50px">de Cantabria</span></h4>
 
-					<div style="line-height: 1.5em; text-align: center;">
-						<img alt="Cantabria cloud"  src="./img/cantabria_cloud.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); " />
-					</div>
-
-
-				</section>
-				<section data-id="2">
-					<section data-id="2a" data-markdown>
-						<script type="text/template">
-							# origen
-
-							![Obama](./img/obama.jpg)
-
-							>&ldquo;In the face of doubt, **openness** prevails&rdquo;
-
-
-						</script>
-					</section>
-
-					<section data-id="2b" data-markdown>
-						<script type="text/template">
-							## [data.gov](http://data.gov)
-
-							- [Memorando sobre transparencia y gobierno abierto](https://www.whitehouse.gov/the_press_office/TransparencyandOpenGovernment/)
-							  - transparencia
-							  - participación
-							  - colaboración
-							- liberación de cientos de miles de conjuntos de datos (2009)
-							- desde 205 APIs del Gobierno y 157 agencias
-							- [Directiva de Gobierno Abierto](https://www.whitehouse.gov/open/documents/open-government-directive)
-
-
-
-						</script>
-					</section>
-				</section>
-				<section data-id="3">
-					<section data-id="3a" data-markdown>
-						<script type="text/template">
-							## concepto
-							|  |  |
-							|--|--|
-							|**datos**| información de cualquier tipo|
-							|**abiertos**| gratuitos y de libre uso, reutilización y redistribución|
-							|**gubernamentales**| producidos por entes gubernamentales|
-							|**estadísticos**| producidos por oficinas estadísticas públicas|
-							|**enlazados**| interconectados y relacionados entre sí|
-
-						</script>
-					</section>
-					<section data-id="3b" data-markdown>
-						<script type="text/template">
-							## propósito
-
-							- hacer pública información sobre lo que hacen los gobiernos
-							- promover la participación ciudadana informada
-							- propiciar la creación de nuevas oportunidades económicas
-						</script>
-					</section>
-					<section data-id="3c" data-markdown>
-						<script type="text/template">
-							## pincipios
-
-							1.  datos completos
-							2.  datos primarios
-							3.  datos actualizados
-							4.  datos accesibles
-							5.  datos procesables
-							6.  datos no discriminatorios
-							7.  datos no propietarios
-							8.  datos libres de licencia
-						</script>
-					</section>
-				</section>
-				<section data-id="4">
-					<section data-id="4a" data-markdown>
-						<script type="text/template">
-							## marco legal
-
-							![Evolución marco legal RISP](./img/marcolegal.png)
-
-							*directiva 2013/37/UE* **reconoce derecho** reutilización
-
-							<small><a href="http://www.slideshare.net/EmilioGarciaGarcia/20130708-eoi-opendata-y-opengov">Opendata y Gobierno Abierto: La continuidad en una política pública</a>, Emilio García García</span></small>
-						</script>
-
-					</section>
-
-					<section data-id="4b" data-markdown>
-						<script type="text/template">
-							## contexto económico
-
-							![Sector infomediario](./img/econ2014.png)
-
-							<small>[Estudio de Caracterización del Sector Infomediario en España 2014 (Reutilización de Información del Sector Público)](http://www.ontsi.red.es/ontsi/es/estudios-informes/estudio-de-caracterizaci%C3%B3n-del-sector-infomediario-en-espa%C3%B1-2014-reutilizaci%C3%B3n-de-), ONTSI</small>
-
-						</script>
-
-
-					</section>
-
-					<section data-id="4c" data-markdown>
-						<script type="text/template">
-							## situación en España
-
-							![Portales opendata en España](./img/mapa_opendata.png)
-
-							<small>[Datos abiertos en las Comunidades Autónomas y sus mayores ayuntamientos 2014](http://www.proyectosfundacionorange.es/docs/eE2014/Datos_Abiertos_2014.pdf), Fundación Orange</small>
-
-						</script>
-
-
-					</section>
-					<section data-id="4d" data-markdown>
-						<script type="text/template">
-							## situación en Cantabria
-
-							<blockquote style="font-size: 20px">
-								&ldquo;De esta forma se evalúan aquellos puntos de acceso únicos a los conjuntos de datos publicados por las CCAA y EELL, excluyéndose iniciativas de Datos Abiertos de carácter o cobertura menos amplia, aunque puedan existir conjuntos de datos publicados bajo iniciativas "parciales" que sean de valor y utilidad a los reutilizadores. En este sentido cabe señalar a Cantabria, que aun no disponiendo de portal de Datos Abiertos publica en la web del Instituto Cántabro de Estadística (ICANE), 3.803 conjuntos de datos en formatos avanzados "Linked Open Data", una considerable cantidad indicada en el cuestionario respondido. **La iniciativa es destacable por lo que supone de adaptación de la estructura de datos del ICANE a la realidad de los datos enlazados**, pero no se ha considerado como portal de Datos Abiertos de Cantabria por todo lo expuesto anteriormente y carecer de una cobertura amplia respecto al resto de conjuntos de datos de esta Comunidad Autónoma.&rdquo;
-							</blockquote>
-							<small>[Datos abiertos en las Comunidades Autónomas y sus mayores ayuntamientos 2014](http://www.proyectosfundacionorange.es/docs/eE2014/Datos_Abiertos_2014.pdf), Fundación Orange</small>
-
-						</script>
-
-
-					</section>
-				</section>
-				<section data-id="5">
-					<section data-id="5a" data-markdown>
-						<script type="text/template">
-							## motivación
-
-							- ofrecer "escaparate" alternativo de datos
-							- complementar portal estadístico con catálogo NTI RISP
-							- incorporar API estándar con función de búsqueda
-							- aprovechar el coste de oportunidad
-							- ser referencia de difusión de datos en Cantabria
-
-							<small>[Norma Técnica de Interoperabilidad de Reutilización de recursos de la información](http://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-2380) y su [Guía de aplicación](http://administracionelectronica.gob.es/pae_Home/dms/pae_Home/documentos/Estrategias/pae_Interoperabilidad_Inicio/Guia_de_aplicacion_de_la_Norma_Tecnica_de_Interoperabilidad_de_Reutilizacion_de_recursos_de_informacion/Guia_aplicacion_Reutilizacion_recursos_de_informacion.pdf)</small>
-
-						</script>
-
-
-					</section>
-
-					<section data-id="5b" data-markdown>
-						<script type="text/template">
-							## solución técnica
-
-							<div class="fragment" data-fragment-index="1"><span style="margin-right: 1em;"><img alt="Logotipo CKAN"  src="./img/CKAN_Logo_full_color.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);height:40px; width:118px;vertical-align:middle;" /></span><span style="vertical-align:middle;"><a href="http://data.gov.uk/">UK</a>, <a href="https://www.data.gov/">USA</a>, <a href="http://daten.berlin.de/">Berlin</a>, <a href="http://opendata.aragon.es/">Aragon</a></span></div>
-							<div class="fragment" data-fragment-index="2"><span style="margin-right: 1em;"><img alt="Icono búsqueda CKAN"  src="./img/search_ckan.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); height:75px; width:75px;vertical-align:middle;" /></span><span>búsqueda, etiquetado, navegación</span></div>
-							<div class="fragment" data-fragment-index="3"><span style="margin-right: 1em;"><img alt="Icono almacenamiento CKAN"  src="./img/store-visualise_ckan.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); height:75px; width:75px;vertical-align:middle;" /></span>metadatos, visualización</span></div>
-						<div class="fragment" data-fragment-index="4"><span style="margin-right: 1em;"><img alt="Icono federación de datos CKAN"  src="./img/engage_ckan.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); height:75px; width:75px;vertical-align:middle;" /></span><span>federación, temas, RRSS</span></div>
-						<div class="fragment" data-fragment-index="5"><span style="margin-right: 1em;"><img alt="Icono extensión CKAN"  src="./img/extend_ckan.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); height:75px; width:75px;vertical-align:middle;" /></span><span><a href="http://datos.icane.es/api/3/action/package_search?q=pesca">API</a>, extensiones</span></div>
-
-						</script>
-
-
-					</section>
-					<section data-id="5c" data-markdown>
-						<script type="text/template">
-							##comparativa de costes
-
-							|portal|coste (€)|
-							|------|-----|
-							|[Córdoba](http://www.diariocordoba.com/noticias/cordobalocal/nace-plataforma-open-data-cordoba-para-buscar-empleo-o-crear-empresas_625578.html)|382.000|
-							|[Zaragoza](http://www.tuderechoasaber.es/es/request/coste_del_portal_de_datos_abiert_6)|81.000|
-							|[Santander](http://portal.ayto-santander.es/portal/pls/portal/docs/9265104.PDF)|72.600|
-							|[Camargo](https://contrataciondelestado.es/wps/wcm/connect/af555a71-27fb-4e05-97c7-8282ee265945/DOC20140128122826Resolucion+adjudicacion.pdf?MOD=AJPERES)|56.000|
-							|[ICANE](./pdf/Memoria_portal_opendata.pdf)|9.650|
-
-						</script>
-					</section>
-
-
-					<section data-id="5d">
-
-						<h2 style="font-style: normal; font-variant: normal; font-weight: bold;">
-							comparativa técnica
-						</h2>
-						<div class="centered" style="text-align: center">
-							<table style="font-size:20px;margin: 0 auto;text-align:left" >
-								<thead>
-									<tr><th></th>
-										<th style="text-align:center" colspan="3">datos</th>
-									</tr>
-									<tr>
-										<th></th>
-										<th style="text-align:center" >gob.es</th>
-										<th style="text-align:center" >santander.es</th>
-										<th style="text-align:center" >icane.es</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr >
-										<td >URI dataset</td>
-										<td ><a href="http://datos.gob.es/catalogo/padron-de-espanoles-residentes-extranjero"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td ><a href="http://datos.santander.es/dataset/?id=poblacion"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td ><a href="http://datos.icane.es/catalogo/residentes-extranjero"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-
-									</tr>
-									<tr><td>
-											URI recurso
-										</td>
-										<td><a href="http://www.ine.es/jaxi/menu.do?type=pcaxis&path=/t20/p85001&file=inebase&L=0"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.santander.es/recurso/?ds=poblacion&id=ab612c61-07c8-4663-891a-ef6de97193f7&ft=HTML"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td ><a href="http://datos.icane.es/recurso/sector-publico/demografia/residentes-extranjero/serie/residentes-extranjero-nacidos-espana-genero-gran-grupo-edad.px"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-
-
-									</tr>
-									<tr><td>
-											DCAT + negociación
-										</td>
-										<td><a href="http://datos.gob.es/catalogo"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.santander.es/catalogo"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td ><a href="http://datos.icane.es/catalogo"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-
-
-									</tr>
-									<tr><td>
-											Metadatos NTI
-										</td>
-										<td><a href="http://datos.gob.es/catalogo/padron-de-espanoles-residentes-extranjero"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.santander.es/api/rest/collections/agenda_cultural.xml"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.icane.es/catalogo/residentes-extranjero"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-
-
-									</tr>
-									<tr><td>
-											Previsualización
-										</td>
-										<td><a href="http://datos.gob.es/catalogo/padron-de-espanoles-residentes-extranjero"><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.santander.es/recurso?ds=poblacion&id=0fd5089a-72b9-479e-a119-680d30525259&ft=JSON"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td ><a href="http://datos.icane.es/recurso/sector-publico/demografia/residentes-extranjero/serie/residentes-extranjero-pais-genero-gran-grupo-edad.xls"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-
-
-									</tr>
-									<tr><td>
-											Zona Apps
-										</td>
-										<td><a href="http://www.datos.gob.es/aplicaciones"><img alt="Icono check OK"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><a href="http://datos.santander.es/aplicaciones/"><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</a></td>
-										<td><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</td>
-
-
-									</tr>
-									<tr><td>
-											<a href="http://validator.w3.org/">Calidad</a> + <a href="www.tawdis.net/">accesibilidad</a>
-										</td>
-										<td><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</td>
-										<td><img alt="Icono aspa error"  src="./img/wrong.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</td>
-										<td ><img alt="Icono check OK"  src="./img/check.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; width: 32px; height:32px" />
-										</td>
-
-
-									</tr>
-
-
-
-
-								</tbody>
-							</table>
-						</div>
-					</section>
-				</section>
-
-				<section data-id="6">
-
-					<h2>¿datos.cantabria.es?</h2>
-
-					<table style="font-size:30px;margin: 0 auto;">
-						<tbody>
-
-							<tr>
-								<td class="fragment" data-fragment-index="1"><img alt="Icono usuarios"  src="./img/usuarios.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); vertical-align: middle" />
-								</td>
-								<td class="fragment" data-fragment-index="1" style="vertical-align: middle;">
-									<table>
-										<tr>
-											<td>
-												unidades
-											</td>
-										</tr>
-										<tr>
-											<td>
-												responsables
-											</td>
-										</tr>
-									</table>
-
-								</td>
-								<td class="fragment" data-fragment-index="2"><img alt="Icono datasets"  src="./img/dataset.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
-									<td class="fragment" data-fragment-index="2" style="vertical-align: middle;">
-										<table>
-											<tr>
-												<td>
-													conjuntos de datos
-												</td>
-
-											</tr>
-											<tr>
-												<td>
-													estandarización
-												</td>
-
-											</tr>
-
-										</table>
-
-									</td>
-								</tr>
-								<tr>
-
-
-									<td class="fragment" data-fragment-index="3"><img alt="Icono procesos"  src="./img/proc.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); vertical-align:middle;" />
-									</td>
-									<td class="fragment" data-fragment-index="3" style="vertical-align: middle;">
-										<table>
-											<tr>
-												<td>
-													alta
-												</td>
-											</tr>
-											<tr>
-												<td>
-													actualización
-												</td>
-											</tr>
-										</table>
-
-									</td>
-
-									<td class="fragment" data-fragment-index="4"><img alt="Icono federación de datos"  src="./img/federation.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
-									</td>
-									<td class="fragment" data-fragment-index="4" style="vertical-align: middle;">
-										<table>
-											<tr>
-												<td>
-													datos.gob.es
-
-												</td>
-
-											</tr>
-											<tr>
-												<td>
-													ayuntamientos
-
-												</td>
-
-											</tr>
-
-										</table>
-
-									</td>
-
-								</tr>
-								<tr>
-									<td class="fragment" data-fragment-index="5"><img alt="Icono apps"  src="./img/apps.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); vertical-align:middle;" />
-									</td>
-									<td class="fragment" data-fragment-index="5" style="vertical-align: middle;">
-										<table>
-											<tr>
-												<td>
-													widgets
-												</td>
-											</tr>
-											<tr>
-												<td>
-													apps
-												</td>
-											</tr>
-										</table>
-
-									</td>
-									<td class="fragment" data-fragment-index="6"><img alt="Icono feedback"  src="./img/feedback.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); vertical-align:middle;" />
-									</td>
-									<td class="fragment" data-fragment-index="6" style="vertical-align: middle;">
-										<table>
-											<tr>
-												<td>
-													monitorización
-												</td>
-											</tr>
-											<tr>
-												<td>
-													proactividad
-												</td>
-											</tr>
-										</table>
-
-									</td>
-
-
-
-
-								</tr>
-
-							</tbody>
-
-						</table>
-						<small class="fragment" data-fragment-index="6">Referencia: <a href="http://www.slideshare.net/carlosiglesiasmoro/estrategias-open-government-data">Estrategias Open Government Data: Mucho más que portales</a>, Carlos Iglesias Moro</small>
-
-
-
-
-					</section>
-
-
-					<section data-id="7">
-
-						<div>
-							<a href="http://www.icane.es"><img alt="Logotipo ICANE"  src="./img/logo500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
-							</a>
-							<a href="http://www.cantabria.es"><img alt="Logotipo DGOT"  src="./img/informatica500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; " /> </a>
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://github.com/icane/intro-opendata">Acceso al repositorio con la presentación</a></span></p>
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;">URL de la presentación: <a href="http://icane.github.io/intro-opendata">http://icane.github.io/intro-opendata</a></span></p>
-
-
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="http://about.me/predicador37">Miguel Expósito Martín</a></span></p>
-							<p style="font-size:20px; text-align:center; margin-top: 1em">Jefe de Sección de Informática Estadística y Banco de Datos</p>
-
-						</div>
-
-					</section>
-
-				</div>
-
+			<div style="line-height: 1.5em; text-align: center;">
+				<img alt="Cantabria cloud" src="./img/munreport.png"
+					 style="max-width: none; max-height: none; color: rgb(255, 153, 0); "/>
 			</div>
 
-			<script src="lib/js/head.min.js"></script>
-			<script src="js/reveal.js"></script>
 
-			<script>
+		</section>
 
-				// Full list of configuration options available at:
-				// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-			progress: true,
-			history: true,
-			center: true,
+		<section data-id="2">
+			<section data-id="2a" data-markdown>
+				<script type="text/template">
+					# el qué
 
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+				</script>
+			</section>
+			<section data-id="2b" data-markdown>
+				<script type="text/template">
+					difusión estadística de **síntesis** en ámbito municipal
 
-			// Optional reveal.js plugins
-			dependencies: [
-			{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-			{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-			{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-			{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-			{ src: 'plugin/zoom-js/zoom.js', async: true },
-			{ src: 'plugin/notes/notes.js', async: true }
-			]
-			});
+					**recurso** de información para administraciones y agencias **locales**
+
+					de interés para los ciudadanos
+
+				</script>
+			</section>
+			<section data-id="2c" data-markdown>
+				<script type="text/template">
+					## fichas 2006
+
+					2ª publicación más consultada en 2008
+
+					[informes en PDF](./pdf/fm_39075.pdf)
+
+					dificultad de actualización
+
+					producto estático
+
+				</script>
+			</section>
+	   <section data-id="2d" data-markdown>
+			<script type="text/template">
+				## fichas 2016
+
+				producto dinámico "a la carta"
+
+				ampliación de oferta estadística
+
+				fácilmente mantenible y extensible
+
+				multidispositivo y visual
+
+			</script>
+		</section>
+			<section data-id="2e" data-markdown>
+				<script type="text/template">
+					### producto web basado en
+
+					**paneles**: fichas y agrupaciones
+
+					**plantillas** personalizables por los usuarios
+
+					75 **widgets** configurables y extensibles
+
+					datos de **series** al vuelo desde el banco de datos
+
+				</script>
+			</section>
+
+		</section>
+
+		<section data-id="3">
+			<section data-id="3a" data-markdown>
+				<script type="text/template">
+					# el cómo
+
+				</script>
+			</section>
+		<section data-id="3b" data-markdown>
+			<script type="text/template">
+				## arquitectura
+				![Arquitectura](./img/arquitectura.svg)
+			</script>
+		</section>
+		<section data-id="3c" data-markdown>
+			<script type="text/template">
+			## proceso
+			![Proceso](./img/ci.svg)
 
 			</script>
 
-		</body>
-	</html>
+		</section>
+
+
+		</section>
+
+
+			<section data-id="4" data-markdown>
+				<script type="text/template">
+					# [demo](https://www.icane.es/munreport)
+
+				</script>
+			</section>
+
+
+		<section data-id="5">
+
+			<section data-id="5a" data-markdown>
+				<script type="text/template">
+					# números
+
+					18000 € + IVA
+
+					1 año de proyecto
+
+					< 100h de trabajo dgot
+
+					75 widgets (y sumando)
+
+					carga en menos de 5s (*)
+
+					[0 errores de validación XHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.icane.es%2Fmunreport%2F)
+
+					[89/100 experiencia de usuario Google](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.icane.es%2Fmunreport&tab=mobile)
+
+				</script>
+			</section>
+		</section>
+		<section data-id="6">
+
+			<div>
+				<a href="http://www.icane.es"><img alt="Logotipo ICANE" src="./img/logo500.png"
+												   style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;"/>
+				</a>
+				<a href="http://www.cantabria.es"><img alt="Logotipo DGOT" src="./img/informatica500.png"
+													   style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; "/>
+				</a>
+				<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a
+						href="https://github.com/icane/munreport">Acceso al repositorio con la presentación</a></span>
+				</p>
+				<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;">URL de la presentación: <a
+						href="http://icane.github.io/intro-opendata">http://icane.github.io/munreport</a></span>
+				</p>
+
+
+				<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a
+						href="http://about.me/predicador37">Miguel Expósito Martín</a></span></p>
+				<p style="font-size:20px; text-align:center; margin-top: 1em">Jefe de Sección de Informática Estadística
+					y Banco de Datos</p>
+
+			</div>
+
+		</section>
+
+	</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+	// Full list of configuration options available at:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+
+		transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+		// Optional reveal.js plugins
+		dependencies: [
+			{
+				src: 'lib/js/classList.js', condition: function () {
+				return !document.body.classList;
+			}
+			},
+			{
+				src: 'plugin/markdown/marked.js', condition: function () {
+				return !!document.querySelector('[data-markdown]');
+			}
+			},
+			{
+				src: 'plugin/markdown/markdown.js', condition: function () {
+				return !!document.querySelector('[data-markdown]');
+			}
+			},
+			{
+				src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+				return !!document.querySelector('pre code');
+			}, callback: function () {
+				hljs.initHighlightingOnLoad();
+			}
+			},
+			{src: 'plugin/zoom-js/zoom.js', async: true},
+			{src: 'plugin/notes/notes.js', async: true}
+		]
+	});
+
+</script>
+
+</body>
+</html>
