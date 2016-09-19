@@ -55,12 +55,7 @@
 		</section>
 
 		<section data-id="2">
-			<section data-id="2a" data-markdown>
-				<script type="text/template">
-					# qué
 
-				</script>
-			</section>
 			<section data-id="2b" data-markdown>
 				<script type="text/template">
 					difusión estadística de **síntesis** en ámbito municipal
@@ -73,7 +68,7 @@
 			</section>
 			<section data-id="2c" data-markdown>
 				<script type="text/template">
-					## fichas 2006
+					### fichas 2006
 
 					2ª publicación más consultada en 2008
 
@@ -87,7 +82,7 @@
 			</section>
 	   <section data-id="2d" data-markdown>
 			<script type="text/template">
-				## fichas 2016
+				### fichas 2016
 
 				producto dinámico "a la carta"
 
@@ -99,46 +94,94 @@
 
 			</script>
 		</section>
-			<section data-id="2e" data-markdown>
-				<script type="text/template">
-					### producto web basado en
 
-					**paneles**: fichas y agrupaciones
-
-					**plantillas** personalizables por los usuarios
-
-					75 **widgets** configurables y extensibles
-
-					datos de **series** al vuelo desde el banco de datos
-
-				</script>
-			</section>
 
 		</section>
 
 		<section data-id="3">
+
 			<section data-id="3a" data-markdown>
 				<script type="text/template">
-					# cómo
+					### metodología
+					[![Metodología](./img/scrum.png)](https://es.wikipedia.org/wiki/Scrum_%28desarrollo_de_software%29)
+
+					<small>[The Art of Doing Twice the Work in Half the Time, Jeff Sutherland](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X)</small>
+
+				</script>
+
+			</section>
+			<section data-id="3b" data-markdown>
+				<script type="text/template">
+					primero la funcionalidad que **mayor valor** aporta
+
+					**iteraciones** de 2 semanas
+
+					**comunicación diaria** en el equipo de trabajo
+
+					**incrementos** funcionales de producto
 
 				</script>
 			</section>
-		<section data-id="3b" data-markdown>
-			<script type="text/template">
-				## arquitectura
-				![Arquitectura](./img/arquitectura.svg)
-			</script>
-		</section>
+
 		<section data-id="3c" data-markdown>
 			<script type="text/template">
-			## proceso
+			### proceso
 			![Proceso](./img/ci.svg)
 
 			</script>
 
 		</section>
 
+			<section data-id="3d" data-markdown>
+				<script type="text/template">
+					### comprobaciones
 
+					- [complejidad ciclomática]()
+					- pruebas unitarias
+					- análisis estático de código ([PMD](https://pmd.github.io/), [findbugs](http://findbugs.sourceforge.net/))
+
+				</script>
+			</section>
+
+
+		</section>
+		<section>
+			<section data-id="4a" data-markdown>
+				<script type="text/template">
+					### arquitectura
+					![Arquitectura](./img/arquitectura.svg)
+				</script>
+			</section>
+			<section data-id="4b" data-markdown>
+				<script type="text/template">
+					### sistemas
+					![Sistemas](./img/sistemas.svg)
+				</script>
+			</section>
+		</section>
+
+		<section data-id="5a" data-markdown>
+			<script type="text/template">
+				### diseño de la solución
+
+				**paneles**: fichas y agrupaciones
+
+				**plantillas** personalizables por los usuarios
+
+				75 **widgets** configurables y extensibles
+
+				datos de **series** al vuelo desde el banco de datos
+
+			</script>
+		</section>
+
+		<section data-id="5a" data-markdown>
+			<script type="text/template">
+				### seguridad
+
+				![Secuencia de autorización](./img/authorizationSequence.png)
+
+			</script>
 		</section>
 
 
@@ -154,17 +197,42 @@
 
 			<section data-id="5a" data-markdown>
 				<script type="text/template">
-					# números
+					### números
 
-					18000 € + IVA
+					- 18000 € + IVA
+					- 1 año de proyecto
+					- < 100h de trabajo DGOT
+					- 75 widgets (y sumando)
+					- [88/100 experiencia de usuario Google](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.icane.es%2Fmunreport&tab=mobile)
 
-					1 año de proyecto
+				</script>
+			</section>
 
-					< 100h de trabajo DGOT
+			<section data-id="5a" data-markdown>
+				<script type="text/template">
+					### conclusiones
 
-					75 widgets (y sumando)
+					 **metodología eficaz**, pero mejorable en su aplicación
 
-					[89/100 experiencia de usuario Google](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.icane.es%2Fmunreport&tab=mobile)
+					 el proceso *software* ha permitido garantizar **calidad** de producto
+
+					 complejidad adicional por **cambio de paradigma** (`angular.js`)
+
+					 buena crítica y tímida aceptación (por el momento)
+
+
+
+				</script>
+			</section>
+			<section data-id="5a" data-markdown>
+				<script type="text/template">
+					### líneas futuras
+
+					generalización del formato del producto: **"generador de publicaciones con widgets"** (ej: anuario estadístico)
+
+					**mejora en el rendimiento** mediante la carga progresiva de widgets
+
+					inclusión de nuevos tipos de widgets
 
 				</script>
 			</section>
@@ -185,10 +253,12 @@
 						href="http://icane.github.io/munreport">http://icane.github.io/munreport</a></span>
 				</p>
 
+				<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a
+						href="mailto:campo_l@cantabria.es">Lorena Campo Moreno</a>, Técnica de Estadísticas Socio-demográficas</p>
+
 
 				<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a
-						href="http://about.me/predicador37">Miguel Expósito Martín</a></span></p>
-				<p style="font-size:20px; text-align:center; margin-top: 1em">Jefe de Sección de Informática Estadística
+						href="http://about.me/predicador37">Miguel Expósito Martín</a>, Jefe de Sección de Informática Estadística
 					y Banco de Datos</p>
 
 			</div>
@@ -242,6 +312,16 @@
 			{src: 'plugin/notes/notes.js', async: true}
 		]
 	});
+
+	// Shows the slide number using default formatting
+	Reveal.configure({ slideNumber: 'c' });
+
+	// Slide number formatting can be configured using these variables:
+	//  "h.v":  horizontal . vertical slide number (default)
+	//  "h/v":  horizontal / vertical slide number
+	//    "c":  flattened slide number
+	//  "c/t":  flattened slide number / total slides
+
 
 </script>
 
